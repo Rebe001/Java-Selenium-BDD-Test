@@ -1,0 +1,335 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1005743300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to \"https://www.google.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.google.com\"",
+                  "offset": 14
+                }
+              ],
+              "location": "app.test.steps.BasePageSteps.navigateToGoogle(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1471149700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I search query \"Github\" on Goggle",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Github\"",
+                  "offset": 15
+                }
+              ],
+              "location": "app.test.steps.GoogleHomePageSteps.searchQueryOnGoogle(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 839799800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on first result on Google",
+            "match": {
+              "location": "app.test.steps.GoogleSearchResultPageSteps.clickOnFirstLinkMatchedWith()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 837403100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I landed on Github home page",
+            "match": {
+              "location": "app.test.steps.GithubHomePageSteps.landedOnGitHubHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T16:16:44.455Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2858316600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "app.test.hooks.CucumberHooks.setup()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Search and view Github Repository",
+        "description": "",
+        "id": "github-smoke-test;search-and-view-github-repository",
+        "after": [
+          {
+            "result": {
+              "duration": 1056000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "app.test.hooks.CucumberHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 655080500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I search query \"user:Rebe001\" on Github global navigation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user:Rebe001\"",
+                  "offset": 15
+                }
+              ],
+              "location": "app.test.steps.GithubBasePageSteps.searchQueryOnGitHubGlobalNavigation(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 565007400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on search result \"Rebe001/Giphy-Rest-api-test\" on Github search result page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rebe001/Giphy-Rest-api-test\"",
+                  "offset": 25
+                }
+              ],
+              "location": "app.test.steps.GithubSearchResultPageSteps.clickOnSearchResultItems(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52117400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I can view Github Repository titled \"Giphy REST api test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Giphy REST api test\"",
+                  "offset": 36
+                }
+              ],
+              "location": "app.test.steps.GithubRepositoryPageSteps.landedOnGitHubHomePage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 371184900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to \"https://www.google.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.google.com\"",
+                  "offset": 14
+                }
+              ],
+              "location": "app.test.steps.BasePageSteps.navigateToGoogle(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7329298200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I search query \"Github\" on Goggle",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Github\"",
+                  "offset": 15
+                }
+              ],
+              "location": "app.test.steps.GoogleHomePageSteps.searchQueryOnGoogle(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 620963400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on first result on Google",
+            "match": {
+              "location": "app.test.steps.GoogleSearchResultPageSteps.clickOnFirstLinkMatchedWith()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 250926900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I landed on Github home page",
+            "match": {
+              "location": "app.test.steps.GithubHomePageSteps.landedOnGitHubHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T16:16:52.825Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "app.test.hooks.CucumberHooks.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Navigate through Github global navigation bar and site map",
+        "description": "",
+        "id": "github-smoke-test;navigate-through-github-global-navigation-bar-and-site-map",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "app.test.hooks.CucumberHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 670615900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on nav item \"Team\" on Github global navigation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Team\"",
+                  "offset": 20
+                }
+              ],
+              "location": "app.test.steps.GithubBasePageSteps.clickOnNavItem(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49000400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I scroll to bottom on \"Github repository page\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Github repository page\"",
+                  "offset": 22
+                }
+              ],
+              "location": "app.test.steps.GithubBasePageSteps.scrollToBottom(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 439207500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on \"About\" on footer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"About\"",
+                  "offset": 11
+                }
+              ],
+              "location": "app.test.steps.GithubBasePageSteps.clickOnFooterItem(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5998600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I landed on Github About page",
+            "match": {
+              "location": "app.test.steps.GithubAboutPageSteps.landedOnGithubPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Github Smoke test",
+    "description": "",
+    "id": "github-smoke-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/GithubSmokeTest.feature",
+    "tags": []
+  }
+]

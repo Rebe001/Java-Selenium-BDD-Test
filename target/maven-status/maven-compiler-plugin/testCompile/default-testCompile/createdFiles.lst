@@ -1,0 +1,11 @@
+app\test\hooks\CucumberHooks$BrowserClosing.class
+app\test\steps\GoogleHomePageSteps.class
+app\test\steps\GoogleSearchResultPageSteps.class
+app\test\steps\GithubRepositoryPageSteps.class
+app\test\steps\GithubAboutPageSteps.class
+app\test\steps\GithubHomePageSteps.class
+app\test\hooks\CucumberHooks.class
+app\test\steps\BasePageSteps.class
+app\test\RunnerTest.class
+app\test\steps\GithubBasePageSteps.class
+app\test\steps\GithubSearchResultPageSteps.class
