@@ -47,57 +47,12 @@ Test Result:
 * Page Object Model (POM)
 
 ![img.png](img.png)
-source:https://www.guru99.com/page-object-model-pom-page-factory-in-selenium-ultimate-guide.html
+
+image source:https://www.guru99.com/page-object-model-pom-page-factory-in-selenium-ultimate-guide.html
 
 ## Directory tree structure
-```
-├───src
-│   ├───main
-    │   ├───java
-    │   │   └───com
-    │   │       └───example
-    │   │           └───app
-    │   │               ├───common
-	│	│				│	    └───Utility
-    │   │               ├───pages
-	│	│				│		├──BasePage
-	│	│				│		├──GithubAboutPage
-	│	│				│		├──GithubBasePage
-	│	│				│		├─GithubHomePage
-	│	│				│		├──GithubRepositoryPage
-	│	│				│		├──GithubSearchResultPage
-	│	│				│		├──GoogleHomePage
-	│   │               │       └──GoogleSearchResultPage
-    │   │               └───webdriver
-	│	│						├──ChromeBrowser
-	│	│						├──Driver
-	│	│						└──DriverFactory
-    │   └───resources
-    │       └───driver
-    │           └───chrome
-	│				└───chromedriver
-    └───test
-		├───RunTests
-        ├───java
-        │   └───app
-        │       └───test
-        │           ├───hooks
-		│			│	└──CucumberHooks
-        │           ├──steps
-		│			│	 ├───BasePageSteps
-		│			│	 ├───GithubAboutPageSteps
-		│			│	 ├───GithubBasePageSteps
-		│			│	 ├────GithubHomePageSteps
-		│			│	 ├──GithubRepositoryPageSteps
-		│			│	 ├──GithubSearchResultPageSteps
-		│           │    ├──GoogleHomePageSteps
-		│           │    └─ GoogleSearchPageSteps
-		│           └──RunnerTest
-		│
-		│				   
-       	└───resources
-				└──GithubSmokeTest.feature
-``` 
+![image](https://user-images.githubusercontent.com/23367428/141340167-83a85442-d5a0-4a56-bf77-dcb9474a0124.png)
+
 
 * `Helper.java` for code reusablility
 * `/pages` pages are created according to page object model, create object repository to store all web UI elements and its page-related methods
