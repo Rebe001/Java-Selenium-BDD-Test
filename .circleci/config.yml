@@ -9,14 +9,16 @@ executors:
 jobs:
   build:
     executor: ci-executor
-    steps:      
+    steps: 
+      - checkout
+      
       - run:
           name: clean dependency
-          command: mvn clean
+          command: ./mvnw clean
       
       - run:
           name: build dependency
-          command: mvn install
+          command: ./mvnw install
           
 
 # Invoke jobs via workflows
